@@ -3,7 +3,9 @@ Alternative splicing (AS) is an essential post-transcriptional mechanism that re
 (https://user-images.githubusercontent.com/86543424/211698496-158867b1-d59e-43f6-8e14-b96c2fa294a1.png)
 
 
-Userage : identifier.sh transcript.fasta model thread
+Userage : 
+sh identifier.sh transcript.fasta model thread
+
     transcript.fasta : the full-length transcript in fasta format
     model : choosing from [arabidopsis, human], arabidopsis or rice for plant, human for animal
     thread : the number of thread to construct the colored de Bruijn graph(cDBG)
