@@ -3,22 +3,24 @@ Alternative splicing (AS) is an essential post-transcriptional mechanism that re
 <img width="632" alt="image" src="https://user-images.githubusercontent.com/86543424/211700520-05b7f060-de3e-488f-84e7-37b6b5dfd0d5.png">
 
 Dependencies:
-Python 3.5–3.8
-Biopython
-joblib
-pandas
-numpy
-blastn 2.10.1
+
+    Python 3.5–3.8
+    Biopython
+    joblib
+    pandas
+    numpy
+    blastn 2.10.1
+
 Installation:
 After testing all dependencies works well, you can git clone it into your working directory, and all executable file placed in bin/
 
-git clone https://github.com/CMB-BNU/mkcDBGAS.git
+    git clone https://github.com/CMB-BNU/mkcDBGAS.git
 
-cd mkcDBGAS/bin
+    cd mkcDBGAS/bin
 
-chmod 777 identifier.sh
+    chmod 777 identifier.sh
 
-echo "export PATH=`pwd`:\$PATH" >>~/.bashrc && source ~/.bashrc
+    echo "export PATH=`pwd`:\$PATH" >>~/.bashrc && source ~/.bashrc
 
 Userage : 
 sh identifier.sh transcript.fasta model thread
