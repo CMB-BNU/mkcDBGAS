@@ -357,7 +357,7 @@ def secondconstruteDG(start1,start2,bubble_number,seq1, seq2):
 	k=4
 	flag = 1
 	#print("ca",seq1, seq2)
-	k=max(mink2(seq1,k,flag,0),mink2(seq2,k,flag,0))-1
+	k=max(mink2(seq1,k,flag,0),mink2(seq2,k,flag,0))
 	#k=mink2(seq1,k,flag,0)-1
 	#print(k)
 	tail="Q"*(k-1)+"PPPP"
