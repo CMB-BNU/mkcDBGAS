@@ -44,7 +44,7 @@ def construteDG(seq1, seq2):
 	bubbles={}
 	k=10
 	flag = 1
-	k=max(mink(seq1.upper(),k,flag,0),mink(seq2.upper(),k,flag,0))-1
+	k=max(mink(seq1.upper(),k,flag,0),mink(seq2.upper(),k,flag,0))
 	#k=mink(seq1,k,flag)+1
 	tail="Q"*(k-1)+"PPPP"
 	head="Q"*(k)
