@@ -30,9 +30,9 @@ y, x = np.split(data,                                       #要切分的数组
                 axis=1)                                     #代表纵向分割，按列分割
 
 #取出模型
-scaler=joblib.load("/panfs4/home/zhangqb/mkcDBG/models/"+argv[2]+"_scaler.pkl")
-featureselector=joblib.load("/panfs4/home/zhangqb/mkcDBG/models/"+argv[2]+"_featureselector.pkl")
-clf=joblib.load("/panfs4/home/zhangqb/mkcDBG/models/"+argv[2]+"_clf.pkl")
+scaler=joblib.load("./models/"+argv[2]+"_scaler.pkl")
+featureselector=joblib.load("./models/"+argv[2]+"_featureselector.pkl")
+clf=joblib.load("./models/"+argv[2]+"_clf.pkl")
 #标准化
 x = scaler.transform(x)
 #特征选择
